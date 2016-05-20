@@ -1,4 +1,4 @@
-Sick and tired of having to look at the output to figure out whether not your `PROC COMPARE` ran cleanly? 
+Sick and tired of having to look at your output to determine whether not your `PROC COMPARE` ran cleanly? 
 
 Introducing the `%CompareWarn` macro! 
 
