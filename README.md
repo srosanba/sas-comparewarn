@@ -5,4 +5,7 @@ proc compare base=derive.adsl compare=verify.v_adsl;
 run;
 %CompareWarn();
 ```
-If anything at all is wrong with your compare, the macro will write a `WARNING` to your SAS log. 
+If anything at all is wrong with your compare, the macro will write a `WARNING` to your SAS log. For instance, if the `BASE` dataset has more records than the `COMPARE` dataset, the log message will be:
+```
+WARNING: %CompareWarn detects:  BASE data set has observation not in COMPARE
+```
