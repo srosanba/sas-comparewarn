@@ -2,7 +2,7 @@ Sick and tired of having to look at your output to determine whether not your `P
 
 Introducing the `%CompareWarn` macro! 
 
-It slices, it dices, it writes `WARNING` messages to your log if anything went wrong with your `PROC COMPARE`. For instance:
+It slices, it dices, it writes `WARNING` messages to your log if anything went wrong with your `PROC COMPARE`. And it's easy to use.
 ```
 proc compare base=dataset_one compare=dataset_two;
 run;
